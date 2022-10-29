@@ -1,0 +1,51 @@
+{
+    "name": "ynievespuntonetsurl/qvapay-sdk-php",
+    "description": "This PHP library facilitates the integration of the Qvapay API",
+    "keywords": [
+        "php",
+        "api",
+        "payments",
+        "qvapay"
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.3",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.3"
+    },
+    "require-dev": {
+        "friendsofphp/php-cs-fixer": "^3.0",
+        "phpunit/phpunit": "^9.5"
+    },
+    "homepage": "https://github.com/ynievespuntonetsurl/qvapay-sdk-php",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YnievesPuntoNetSURL\\QvaPay\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "YnievesPuntoNetSURL\\Qvapay\\Tests\\": "tests"
+        }
+    },
+    "authors": [
+        {
+            "name": "YnievesPuntoNet S.U.R.L",
+            "email": "ynieves@ynieves.net",
+            "homepage": "https://www.ynieves.net"
+        }
+    ],
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage",
+        "format": "vendor/bin/php-cs-fixer fix --config=.php_cs.dist.php --allow-risky=yes"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
