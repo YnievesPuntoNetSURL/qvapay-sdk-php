@@ -60,7 +60,8 @@ try {
     $invoice = $qvapay->create_invoice([
         'amount' => 10,
         'description' => 'Ebook',
-        'remote_id' => 'EE-BOOk-123' # example remote invoice id
+        'remote_id' => 'EE-BOOk-123'
+        'signed' => 1
     ]);
     print_r($invoice);
 } catch (\Exception $e) {
