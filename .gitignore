@@ -10,3 +10,4 @@ dirlist.cache
 documents/
 .env
 .phpunit.result.cache
+.php-cs-fixer.cache
