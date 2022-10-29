@@ -1,6 +1,6 @@
 <?php
 
-namespace YnievesPuntoNetSURL\Qvapay;
+namespace YnievesPuntoNetSURL\QvaPay;
 
 /**
  * Helpers Class.

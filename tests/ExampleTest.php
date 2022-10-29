@@ -1,6 +1,6 @@
 <?php
 
-namespace YnievesPuntoNetSURL\Qvapay\Tests;
+namespace YnievesPuntoNetSURL\QvaPay\Tests;
 
 use PHPUnit\Framework\TestCase;
 

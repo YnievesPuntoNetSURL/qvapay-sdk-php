@@ -28,7 +28,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "YnievesPuntoNetSURL\\Qvapay\\Tests\\": "tests"
+            "YnievesPuntoNetSURL\\QvaPay\\Tests\\": "tests"
         }
     },
     "authors": [

@@ -1,6 +1,6 @@
 <?php
 
-namespace YnievesPuntoNetSURL\Qvapay;
+namespace YnievesPuntoNetSURL\QvaPay;
 
 use GuzzleHttp\Client as GuzzleClient;
 use GuzzleHttp\Exception\RequestException;
