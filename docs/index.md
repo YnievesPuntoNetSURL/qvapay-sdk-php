@@ -1,5 +1,7 @@
 # Php library for Qvapay API
 
+![Banner](https://banners.beyondco.de/QvaPay%20SDK.png?theme=dark&packageManager=composer+require&packageName=ynievespuntonetsurl%2Fqvapay-sdk-php&pattern=autumn&style=style_2&description=This+PHP+library+facilitates+the+integration+of+the+QvaPay+API.&md=1&showWatermark=0&fontSize=125px&images=https%3A%2F%2Fwww.php.net%2Fimages%2Flogos%2Fnew-php-logo.svg&widths=auto)
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ynievespuntonetsurl/qvapay-sdk-php.svg?style=flat)](https://packagist.org/packages/ynievespuntonetsurl/qvapay-sdk-php)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
 ![Tests](https://github.com/ynievespuntonetsurl/qvapay-sdk-php/workflows/Tests/badge.svg)
@@ -105,21 +107,3 @@ You can also read the QvaPay API documentation: [https://qvapay.com/docs](https:
 ```bash
 composer test
 ```
-
-## Contributing
-
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
-
-## Security Vulnerabilities
-
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
-
-## Credits
-
-- [YnievesPuntoNet S.U.R.L](https://www.ynieves.net)
-- [Omar Villafuerte](https://github.com/ovillafuerte94)
-- [All Contributors](../../contributors)
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
