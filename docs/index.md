@@ -34,7 +34,7 @@ composer require ynievespuntonetsurl/qvapay-sdk-php
 ```php
 require_once __DIR__ . '/vendor/autoload.php';
 
-use  YnievesPuntoNetSURL\Qvapay\Client;
+use  YnievesPuntoNetSURL\QvaPay\Client;
 try {
     $qvapay = new Client([
         'app_id' => 'XXX', 

@@ -1,5 +1,7 @@
 # Php library for Qvapay API
 
+![Banner](https://banners.beyondco.de/QvaPay%20SDK.png?theme=dark&packageManager=composer+require&packageName=ynievespuntonetsurl%2Fqvapay-sdk-php&pattern=autumn&style=style_2&description=This+PHP+library+facilitates+the+integration+of+the+QvaPay+API.&md=1&showWatermark=0&fontSize=125px&images=https%3A%2F%2Fwww.php.net%2Fimages%2Flogos%2Fnew-php-logo.svg&widths=auto)
+
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/ynievespuntonetsurl/qvapay-sdk-php.svg?style=flat)](https://packagist.org/packages/ynievespuntonetsurl/qvapay-sdk-php)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat)](LICENSE.md)
 ![Tests](https://github.com/ynievespuntonetsurl/qvapay-sdk-php/workflows/Tests/badge.svg)
@@ -32,7 +34,7 @@ composer require ynievespuntonetsurl/qvapay-sdk-php
 ```php
 require_once __DIR__ . '/vendor/autoload.php';
 
-use  YnievesPuntoNetSURL\Qvapay\Client;
+use  YnievesPuntoNetSURL\QvaPay\Client;
 try {
     $qvapay = new Client([
         'app_id' => 'XXX', 
